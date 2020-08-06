@@ -3,14 +3,14 @@ const styles = {
         display : "flex",
         flexDirection : "column",
         flex : 1,
-        marginTop : 12,
-        fontSize : 12,
+        marginTop : 32,
+        fontSize : 18,
         fontFamily : 'sans-serif'
     },
     TextInputBox : {
-        marginTop : 4,
-        width : 300,
-        height : 25,
+        marginTop : 12,
+        width : 400,
+        height : 45,
         border : "0.2px solid grey",
         borderRadius : 4
     },
@@ -18,9 +18,9 @@ const styles = {
         display : "flex",
         flexDirection : "row",
         alignItems : "center",
-        marginTop : 4,
-        width : 300,
-        height : 25,
+        marginTop : 12,
+        width : 400,
+        height : 50,
         border : "0.2px solid grey",
         borderRadius : 4,
         backgroundColor : "white",
@@ -35,15 +35,16 @@ const styles = {
     radioLabelStyle : {
         display : "flex",
         flex : 1,
-        fontSize : 10,
+        fontSize : 18,
         alignItems : 'center',
         paddingLeft : 4,
         paddingTop : 4
     },
     selectBoxStyle : {
-        marginTop : 8,
-        width : 300,
-        height : 25,
+        marginTop : 12,
+        width : 400,
+        height : 50,
+        fontSize : 18,
         border : "0.2px solid grey",
         borderRadius : 4
     }

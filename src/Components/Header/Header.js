@@ -24,7 +24,7 @@ function Header(props) {
                             CAMINO
                         </b>
                     </div>
-                    <div style = {{fontSize : 10}}>
+                    <div style = {{fontSize : 14}}>
                         FINANCIAL
                     </div>
                 </div>

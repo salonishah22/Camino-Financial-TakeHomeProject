@@ -12,11 +12,11 @@ const styles = {
         backgroundColor : "#1b3b43"
     },
     logoContainer : {
-        height : 40,
-        width : 35
+        height : 60,
+        width : 60
     },
     companyNameContainer : {
-        fontSize : 14,
+        fontSize : 20,
         fontFamily : "sans-serif",
         alignSelf : 'center',
         color : 'white'
@@ -30,11 +30,11 @@ const styles = {
     },
     languageButton : {
         border : "0.2px solid grey",
-        width : 60,
-        height : 20,
+        width : 80,
+        height : 30,
         color : 'white',
         backgroundColor : 'transparent',
-        fontSize : 8,
+        fontSize : 12,
         fontFamily : 'sans-serif'
     },
     helpBarContainer : {
@@ -54,24 +54,26 @@ const styles = {
     helpButtonContainer : {
         position : 'absolute',
         right : 12,
-        top :78,
+        top :95,
         border : "0.2px solid grey",
-        width : 60,
-        height : 20,
+        width : 80,
+        height : 35,
         color : 'white',
         backgroundColor : '#1b3b43',
-        fontSize : 8,
+        fontSize : 18,
         fontFamily : 'sans-serif',
         justifyContent : 'center',
         flexDirection : 'row',
         display : "flex",
-        alignItems : 'center'
+        alignItems : 'center',
+        borderRadius : 8
     },
     showHelpContainer : {
         display : "flex",
         flex : 1,
         flexDirection : 'column',
-        padding : 25
+        padding : 25,
+        fontSize : 18
     },
     helpButtonActionContainer : {
         marginTop : 8,
@@ -81,11 +83,11 @@ const styles = {
         justifyContent : 'space-around',
     },
     helpButtonActionStyle : {
-        marginRight : 4,
+        marginRight : 8,
         backgroundColor : 'transparent',
         border : "0.2px solid white",
         borderRadius : 3,
-        height : 25,
+        height : 40,
         color : "white",
         display : "flex",
         flex : 1,

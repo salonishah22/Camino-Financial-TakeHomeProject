@@ -5,9 +5,9 @@ import { TextInput, BinaryInput, DropdownInput } from '../InputComponents';
 function FormOneBody(props) {
    return(
        <div style = {styles.FormOneBodyContainer}>
-           <div style = {{fontSize : 12, fontFamily : "sans-serif"}}>
+           <div style = {{fontSize : 18, fontFamily : "sans-serif"}}>
             Tell us a little bit about yourself and your business loan needs
-            <div style = {{color : "red"}}>
+            <div style = {{color : "red", marginTop : 8}}>
                 * required
             </div>
            </div>

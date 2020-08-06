@@ -21,10 +21,10 @@ function HelpButton(props) {
             {props.buttonText === "Help" ?
                 <img
                     src = {helpicon}
-                    style = {{width : 15, height : 15, marginRight : 4}}/>
+                    style = {{width : 20, height : 20, marginRight : 4}}/>
                 :
                 <img
-                    style = {{width : 15, height : 15, marginRight : 4}}
+                    style = {{width : 20, height : 20, marginRight : 4}}
                     src = {arrowicon} />
             }
             {props.buttonText}
@@ -39,10 +39,10 @@ function HelpActionButton(props) {
             {props.buttonText === "EMAIL" ?
                 <img
                     src = {chaticon}
-                    style = {{width : 15, height : 15, marginRight : 12}}/>
+                    style = {{width : 20, height : 20, marginRight : 12}}/>
                 :
                 <img
-                    style = {{width : 15, height : 15, marginRight : 12}}
+                    style = {{width : 20, height : 20, marginRight : 12}}
                     src = {callicon} />
             }
             {props.buttonText}
